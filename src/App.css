@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 5vmin;
+  pointer-events: none;
+}
+
+.logo-div {
+  width: 10vmin;
+  height: 10vmin;
+  background-color: rgba(255, 0, 38, 0.479);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+
+input {
+  background-color: transparent;
+  padding: 10px;
+  border: rgba(255, 255, 255, 0.76) solid 1px;
+  border-radius: 3px;
+  color:rgba(255, 255, 255, 0.76);
+  max-width: 272px;
+}
+
+.sign-in-area, .sign-up-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  background-color: rgba(93, 216, 253, 0.756);
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: x-small;
+  font-weight: bolder;
+  width: 100%;
+}
+
+.user-info-inputs {
+  display: grid;
+  grid-template-columns: 47% 47%;
+  justify-content: space-between;
+  gap: 10px;
+  
+}
+
+.xd {
+  margin-bottom: 0px;
+}
+
+.check-box-input {
+  display: flex;
+  justify-content: flex-start;
+  color: antiquewhite;
+  font-size: small;
+  text-align: start;
+  align-items: center;
+}
+
+.login-inputs-div {
+  width: 272px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  margin-bottom: 8px;
+}
+
+.input-place {
+  width: 250px;
+}
+
+.links-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  font-size: x-small;
+  text-decoration: none;
+  color: rgba(93, 216, 253, 0.756) !important;
+}
+
+.copyright {
+  font-size: x-small;
+  color: #989898;
+  padding-top: 5%;
+}
+
+.links-div-up {
+  text-align: end;
+}
+
